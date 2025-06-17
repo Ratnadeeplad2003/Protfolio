@@ -1,0 +1,73 @@
+.header {
+  background: linear-gradient(90deg, #fceabb, #f8b500);
+  padding: 20px;
+  border-radius: 12px;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.social-buttons img {
+  width: 20px;
+  height: 20px;
+}
+
+.linkedin-btn {
+  background-color: #0077b5;
+  color: white;
+}
+
+.github-btn {
+  background-color: #333;
+  color: white;
+}
+
+.social-buttons button:hover {
+  transform: scale(1.05);
+}
+
+.nav-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #ff6600;
+}
